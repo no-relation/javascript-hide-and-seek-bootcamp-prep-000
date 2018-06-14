@@ -18,6 +18,6 @@ function deepestChild() {
   var grands = document.getElementById('#grand-node');
   while(grands.children()) {
     grands = grands.children();
+    return grands;
   }
-  return grands;
 }
